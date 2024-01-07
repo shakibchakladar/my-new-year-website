@@ -10,13 +10,17 @@ body{
 }
 
 /* banner section start */
-.banner{}
+.banner{
+    background: #fff;
+}
  .first-banner{
     background-image: url('./img/Banner\ Image.png');
     background-repeat: no-repeat;
+    background-size: cover;
     padding:300px 450px;
     border-radius: 1rem;
     position: relative;
+    border-radius: 1rem;
     border-radius: 1rem;
 
 
@@ -42,8 +46,55 @@ font-size: 4.5rem;
 font-weight: 900;
 width: 39.5rem;
 position: absolute;
-top: 200px;
+top: 190px;
 left: 323px;
-background: linear-gradient(#7d1111);
+border-radius: 1rem;
+background: linear-gradient(65deg, #252328 0%, rgba(7, 2, 17, 0.00) 100%);
 
+}
+.discont-info{
+    width: 90rem;
+    height: auto;
+color: #fff;
+}
+
+.discount-heading{
+ color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 5.5rem;
+font-weight: 700;
+padding-top: 108px;
+padding-bottom: 20px;
+}
+.discont-info-holiday-deals{
+    color: #F00;
+
+text-align: center;
+font-size: 1.5rem;
+font-weight: 500;
+}
+.discont-info-categoris {
+    color: #070211;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.second-banner{
+    background-image: url(./img/New\ Year\ Photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:400px;
+    margin-top: 50px;
+    
+}
+
+.third-banner{
+    background-image: url(./img/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+    margin-top: 50px;
 }
