@@ -4,9 +4,10 @@
     margin: 0;
 }
 body{
-    max-width: 1360px;
+    max-width: 1600px;
     margin: auto;
     font-family: 'Merriweather', serif;
+    color: #fff;
 }
 
 /* banner section start */
@@ -95,20 +96,63 @@ font-weight: 500;
     background-image: url(./img/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 400px;
+    padding: 130px 300px 500px 200px;
     margin-top: 50px;
+    display: flex;  
+    position: relative;
+}
+.third-banner-left{
+  position: absolute;
+  left: 10px;
+  width: 50%;
 }
 .third-banner-title{
+    width: 40.125rem;
     color: #FFF;
-font-family: Merriweather;
-font-size: 4rem;
-font-weight: 900;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 5.5rem; 
+    letter-spacing: 0.44rem;
+    margin: 30px;
 
 }
 .third-banner-description{
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 1.125rem;
-font-weight: 400;
+    width: 43.5625rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    text-align: right;
+}
 
+.third-banner-left .join-now{
+    border: 1px solid rgb(111, 4, 111);
+    padding:10px 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgb(132, 5, 132);
+    color: #fff;
+    border-radius:10px 0;
+}
+.third-banner-left .join-now:hover{
+    background: rgb(30, 0, 30);
+    text-decoration: underline;
+    color: #F00;
+}
+
+.third-banner-right{
+    position: absolute;
+    right: 81px;
+    top: 161px;
+}
+.third-banner-right> img {
+    display: flex;
+width: 19.98938rem;
+height: 29.04138rem;
+padding: 0.0005rem 0rem 0rem 0rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
 }
