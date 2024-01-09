@@ -318,6 +318,9 @@ margin: 20px 0;
     margin-top: 50px;
 
 }
+
+.portfolio-first-row{display: flex;}
+.portfolio-2nd-row{display: flex;}
 .portfolio-item-product{
     margin: 45px;
     width: 26.5rem;
