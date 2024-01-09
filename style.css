@@ -4,10 +4,19 @@
     margin: 0;
 }
 body{
-    max-width: 1600px;
+    max-width: 1560px;
     margin: auto;
     font-family: 'Merriweather', serif;
     color: #fff;
+}
+
+/* common */
+.description{
+color: rgba(7, 2, 17, 0.60);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; 
 }
 
 /* banner section start */
@@ -125,15 +134,15 @@ font-weight: 500;
     text-align: right;
 }
 
-.third-banner-left .join-now{
+ .third-banner-jn{
     border: 1px solid rgb(111, 4, 111);
     padding:10px 30px;
     margin-left: 100px;
     margin-top: 20px;
     font-size: 20px;
-    background: rgb(132, 5, 132);
     color: #fff;
     border-radius:10px 0;
+    display: inline-block;
 }
 .third-banner-left .join-now:hover{
     background: rgb(30, 0, 30);
@@ -155,4 +164,195 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
+}
+
+/* main section */
+main{}
+/* join section */
+.join-section{
+    background-color: rgba(255, 0, 0, 0.10);;
+    padding: 200px 420px 220px 620px;
+    border: 2px solid #fdf9f9;
+    margin-top: 100px;
+}
+.annousment{
+    color: #070211;
+font-family: Inter;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 3.5rem;
+text-transform: capitalize;
+}
+
+.annousment span{
+    color: red;
+}
+.join-now{
+padding: 1rem 2rem;
+border-radius: 1rem 0;
+background: #F00;
+border:0;
+color: #FFF;
+font-size: 1.25rem;
+font-weight: 700;
+margin-top: 30px;
+}
+.join-now:hover{
+    background: rgb(182, 1, 1);
+    color: aqua;
+    text-decoration: underline;
+    transition: .5s;
+}
+/* offer section start */
+.containner{
+    display: flex;
+    background: #FFF;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 100px;
+}
+.blog-content{}
+
+.comming-soon{
+    display: flex;
+    margin-top: 50px;
+}
+.comming-soon{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 3rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.new-best{
+color: #F00;
+text-align: left;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.comming-soon{}
+.image{
+    border: 20px solid red;
+    border-radius: 100%;
+}
+
+.happy-new-year1{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.h2024{
+color: #F00;
+font-size: 3rem;
+font-weight: 700;
+}
+
+/* holiday section start */
+.HOLIDAY{
+/* width: 100rem; */
+/* height: 458.4375rem; */
+background: #FFF;
+text-align: center;
+}
+.HOLIDAY .w-i-function{
+color: #070211;
+font-size: 1.5rem;
+font-weight: 500;
+}
+.holliday-sale{
+color: #070211;
+font-size: 4.5rem;
+font-weight: 900;
+}
+.holiday{
+    color: #F00;
+}
+
+
+/* discount continner start */
+.discont50container{
+    /* position: relative; */
+}
+.img1{
+    /* position: absolute; */
+    /* bottom: 10px; */
+    margin-top: 50px;
+    
+    
+    
+}
+
+.img-footer{
+    width: 100%;
+}
+
+.img1{
+
+}
+
+
+/* portfolio section */
+.portfolio{
+background: #FFF;
+margin-top: 100px;
+}
+.portfolio-heading{
+color: #F00;
+font-size: 1.5rem;
+font-weight: 500;
+}
+.portfolio-title{
+color: #070211;
+font-size: 3rem;
+font-weight: 900;
+margin: 20px 0;
+}
+
+.portfolio-item{
+   
+    align-items: center;
+    border: 5px solid #fff;
+    margin-top: 50px;
+
+}
+.portfolio-item-product{
+    margin: 45px;
+    width: 26.5rem;
+height: 28.125rem;
+flex-shrink: 0;
+
+}
+
+/* subscribe section */
+.subscribe{
+margin-top: 100px;
+text-align: center;
+background: rgba(255, 0, 0, 0.05);
+padding: 12rem 20rem;
+
+}
+.subscribe-img{margin-top: 20px;}
+.subscribe-title{
+
+ color: #070211;
+ font-size: 3rem;
+ font-weight: 900;
+}
+#subscribe-option{
+    border-radius: 3.125rem;
+    background: #FFF;
+   margin-top: 20px;
+   padding: 29px 50px;
+
+}
+.subscribe-btn{
+border-radius: 0rem 3.125rem 3.125rem 0rem;
+background: #F00;
+width: 13.125rem;
+height: 4.5rem;
+color: #FFF;
+font-size: 15px;
 }
