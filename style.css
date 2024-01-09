@@ -27,7 +27,7 @@ line-height: 2rem;
     background-image: url('./img/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding:300px 450px;
+    padding:200px 230px 500px 220px; 
     border-radius: 1rem;
     position: relative;
     border-radius: 1rem;
@@ -37,13 +37,12 @@ line-height: 2rem;
 }
 .first-banner-wish{
     color: #fff;
-     
-    text-align: center;
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    position: absolute;
-    top: 112px;
+   position: absolute;
+   bottom: 356px;
+   right: 605px;
     
     
    
@@ -56,10 +55,10 @@ font-size: 4.5rem;
 font-weight: 900;
 width: 39.5rem;
 position: absolute;
-top: 190px;
-left: 323px;
+top: 248px;
+left: 333px;
 border-radius: 1rem;
-background: linear-gradient(65deg, #252328 0%, rgba(7, 2, 17, 0.00) 100%);
+
 
 }
 .discont-info{
@@ -96,7 +95,7 @@ font-weight: 500;
     background-image: url(./img/New\ Year\ Photo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding:400px;
+    padding:300px 600px 674px 150px; 
     margin-top: 50px;
     
 }
@@ -105,7 +104,7 @@ font-weight: 500;
     background-image: url(./img/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 130px 300px 500px 200px;
+    padding: 130px 300px 800px 200px;
     margin-top: 50px;
     display: flex;  
     position: relative;
@@ -152,8 +151,8 @@ font-weight: 500;
 
 .third-banner-right{
     position: absolute;
-    right: 81px;
-    top: 161px;
+    right: 111px;
+    top: 248px;
 }
 .third-banner-right> img {
     display: flex;
@@ -167,7 +166,6 @@ flex-shrink: 0;
 }
 
 /* main section */
-main{}
 /* join section */
 .join-section{
     background-color: rgba(255, 0, 0, 0.10);;
@@ -212,7 +210,6 @@ margin-top: 30px;
     margin-top: 100px;
     padding: 100px;
 }
-.blog-content{}
 
 .comming-soon{
     display: flex;
@@ -234,7 +231,7 @@ text-align: left;
 font-size: 1.5rem;
 font-weight: 800;
 }
-.comming-soon{}
+
 .image{
     border: 20px solid red;
     border-radius: 100%;
@@ -252,8 +249,6 @@ font-weight: 700;
 
 /* holiday section start */
 .HOLIDAY{
-/* width: 100rem; */
-/* height: 458.4375rem; */
 background: #FFF;
 text-align: center;
 }
@@ -273,9 +268,6 @@ font-weight: 900;
 
 
 /* discount continner start */
-.discont50container{
-    /* position: relative; */
-}
 
 .discount50-row-one{
     background-image: url("/img/Rectangle\ 1.png");
@@ -308,23 +300,9 @@ font-weight: 900;
 
 
 .img1{
-    /* position: absolute; */
-    /* bottom: 10px; */
-    margin-top: 50px;
     
-    
-    
+    margin-top: 50px;  
 }
-
-.img-footer{
-    width: 100%;
-}
-
-.img1{
-
-}
-
-
 /* portfolio section */
 .portfolio{
 background: #FFF;
@@ -332,7 +310,7 @@ margin-top: 100px;
 }
 .portfolio-heading{
 color: #F00;
-font-size: 1.5rem;
+font-size: 2.5rem;
 font-weight: 500;
 }
 .portfolio-title{
