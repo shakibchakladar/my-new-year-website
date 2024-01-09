@@ -276,6 +276,37 @@ font-weight: 900;
 .discont50container{
     /* position: relative; */
 }
+
+.discount50-row-one{
+    background-image: url("/img/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    padding: 200px;
+    background-position: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: -312px;
+    
+}
+.img-left-50{
+   background-position:left;
+}
+.img50-off{
+    position: absolute;
+    right:263px;
+    top: 260
+    
+    
+}
+
+.discount50-row-two{
+    background-image: url(/img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px ;
+    
+}
+
+
 .img1{
     /* position: absolute; */
     /* bottom: 10px; */
@@ -433,8 +464,6 @@ margin-top: 15px;
     height: 400px;
     justify-content: space-between;
 }
-.footer-section-three-left{}
-.footer-section-three-right{}
 h6{
     color: #FFF;
 font-family: Inter;
