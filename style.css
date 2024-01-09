@@ -354,19 +354,23 @@ padding: 12rem 20rem;
  font-weight: 900;
 }
 #subscribe-option{
-    border-radius: 3.125rem;
+    border-radius: 5px ;
     background: #FFF;
    margin-top: 20px;
    padding: 29px 50px;
+   width: 250px;
 
 }
+::placeholder{font-size: 25px;}
 .subscribe-btn{
-border-radius: 0rem 3.125rem 3.125rem 0rem;
+border-radius:  5px;
 background: #F00;
 width: 13.125rem;
 height: 4.5rem;
 color: #FFF;
-font-size: 15px;
+font-size: 25px;
+margin-left: -15px;
+padding-bottom: 7px;
 }
 
 /* footer section */
