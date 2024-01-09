@@ -356,3 +356,88 @@ height: 4.5rem;
 color: #FFF;
 font-size: 15px;
 }
+
+/* footer section */
+footer{
+    width: 100rem;
+height: auto;
+background: black;
+margin-top: 100px;
+}
+
+.footer-section-one{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.left-side{
+    padding:150px 200px;
+}
+
+.left-side-content{
+    color: #FFF;
+font-size: 2.5rem;
+font-weight: 500;
+word-spacing: 5px;
+line-height: 70px;
+
+}
+.right-side{
+    margin: 150px 100px 0 0;
+}
+.right-site-number{
+    display: flex;
+    color: #FFF;
+font-size: 2.5rem;
+font-weight: 500;
+line-height: 2.5rem;
+
+}
+.right-call-img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.right-site-website{
+    display: flex;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 2.5rem;
+font-weight: 500;
+margin-top: 20px;
+}
+.right-web-img{
+    width: 2.5rem;
+height: 3rem;
+margin-top: 15px;
+}
+
+.hr{
+    background: rgba(255, 255, 255, 0.15);
+ 
+}
+
+.footer-section-two{
+    text-align: center;
+    padding: 50px;
+}
+.footer-section-two>img{
+    margin: 20px;
+}
+
+.footer-section-three{
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+.footer-section-three-left{}
+.footer-section-three-right{}
+h6{
+    color: #FFF;
+font-family: Inter;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 100px;
+}
